@@ -12,4 +12,5 @@ export default defineConfig({
   ],
   title: 'Generic Blog',
   description: 'The blog of Generic Protocol, neutral infrastructure for yield-generating and natively-private stablecoins.',
+  blogDir: './pages',
 })
