@@ -7,5 +7,5 @@ export default defineConfig({
     dark: '/img/logo-white.svg',
   },
   title: 'Generic Blog',
-  ogImageUrl: '/img/og-image.png',
+  ogImageUrl: 'https://generic-blog-gamma.vercel.app/img/og-image.png',
 })
