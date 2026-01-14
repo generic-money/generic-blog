@@ -7,5 +7,6 @@ export default defineConfig({
     dark: '/img/logo-white.svg',
   },
   title: 'Generic Blog',
-  ogImageUrl: 'https://generic-blog-gamma.vercel.app/img/og-image.png',
+  description: 'The official blog of Generic Protocol, neutral infrastructure for yield-generating and natively-private stablecoins.',
+  ogImageUrl: 'https://vocs.dev/api/og?logo=%logo&title=%title&description=%description',
 })
