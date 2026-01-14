@@ -12,5 +12,10 @@ export default defineConfig({
   ],
   title: 'Generic Blog',
   description: 'The blog of Generic Protocol, neutral infrastructure for yield-generating and natively-private stablecoins.',
-  ogImageUrl: 'https://generic-blog-gamma.vercel.app/img/og-image.png',
+  head: (
+    <>
+      <meta property="og:image" content="'https://generic-blog-gamma.vercel.app/img/og-image.png" />
+    </>
+  ),
+//   ogImageUrl: 'https://generic-blog-gamma.vercel.app/img/og-image.png',
 })
